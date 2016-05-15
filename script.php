@@ -63,3 +63,27 @@ $("#show").click(function(){
       $("#navimg").removeClass("hide");
     }); 
 </script>
+
+<script>
+$(document).ready(function(){
+        $(".per").show();
+        $(".nor").hide();
+});
+$(document).ready(function(){
+    $(".pers").click(function(){
+        $(".nor").hide();
+    });
+    $(".pers").click(function(){
+        $(".per").show();
+    });
+});
+$(document).ready(function(){
+    $(".norm").click(function(){
+        $(".per").hide();
+    });
+    $(".norm").click(function(){
+        $(".nor").show();
+    });
+});
+
+</script>

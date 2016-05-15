@@ -45,12 +45,12 @@
       <ul class="nav navbar-nav">
             <li><a href="upload.php"><i class="fa fa-cloud-upload"></i> <span>Upload</span></a></li>
             <li><a href="account.php"><i class="fa fa-folder-open"></i> <span>My Files</span></a></li>
-            <li><a href="#"><i class="fa fa-trash"></i> <span>Trash</span></a></li>
-            <li><a href="#"><i class="fa fa-clock-o"></i> <span>Recent</span></a></li>
-            <li><a href="#"><i class="fa fa-star"></i> <span>Important</span></a></li>
-            <li><a href="#"><i class="fa fa-user"></i> <span>My Account</span></a></li>
-            <li><a href="#"><i class="fa fa-cogs"></i> <span>Settings</span></a></li>
-            <li><a href="#"><i class="fa fa-cart-plus"></i> <span>Upgrade</span></a></li>
+            <li><a href="trash.php"><i class="fa fa-trash"></i> <span>Trash</span></a></li>
+            <li><a href="recent.php"><i class="fa fa-clock-o"></i> <span>Recent</span></a></li>
+            <li><a href="important.php"><i class="fa fa-star"></i> <span>Important</span></a></li>
+            <li><a href="profile.php"><i class="fa fa-user"></i> <span>My Account</span></a></li>
+            <li><a href="profile.php"><i class="fa fa-cogs"></i> <span>Settings</span></a></li>
+            <li><a href="upgrade.php"><i class="fa fa-cart-plus"></i> <span>Upgrade</span></a></li>
       </ul>
     </div>
   </div>
@@ -75,12 +75,12 @@
       <ul class="nav navbar-nav">
         <li><a href="upload.php"><i class="fa fa-cloud-upload"></i> Upload</a></li>
             <li><a href="account.php"><i class="fa fa-folder-open"></i> My Files</a></li>
-            <li><a href="#"><i class="fa fa-trash"></i> Trash</a></li>
-            <li><a href="#"><i class="fa fa-clock-o"></i> Recent</a></li>
-            <li><a href="#"><i class="fa fa-star"></i> Important</a></li>
-            <li><a href="#"><i class="fa fa-user"></i> My Account</a></li>
-            <li><a href="#"><i class="fa fa-cogs"></i> Settings</a></li>
-            <li><a href="#"><i class="fa fa-cart-plus"></i> Upgrade</a></li>
+            <li><a href="trash.php"><i class="fa fa-trash"></i> Trash</a></li>
+            <li><a href="recent.php"><i class="fa fa-clock-o"></i> Recent</a></li>
+            <li><a href="important.php"><i class="fa fa-star"></i> Important</a></li>
+            <li><a href="profile.php"><i class="fa fa-user"></i> My Account</a></li>
+            <li><a href="profile.php"><i class="fa fa-cogs"></i> Settings</a></li>
+            <li><a href="upgrade.php"><i class="fa fa-cart-plus"></i> Upgrade</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
