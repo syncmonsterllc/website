@@ -4,33 +4,45 @@
 
 <body id="acc_body">
     <div id="wrapper">
-        <div id="content">
-                <h2 class="text-center">SETTINGS</h2>
-            <form>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Change Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Change Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Old Password"><br>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="New Password"><br>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="New Password Validation"><br>
-              </div>
-                <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-              </div>
-                <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-              </div>
-                <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-              </div>
-              <button type="submit" class="btn btn-default">Save</button>
-            </form>
+        <div class="well well-lg">
+                <div class="stor">
+                  <h4>Cloud storages</h3>
+                    <div class="dropbox col-md-2 col-md-offset-1">
+                      <i class="fa fa-dropbox" aria-hidden="true"></i>
+                      <p class="cap">Dropbox</p>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">60% Complete</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="drive col-md-2 col-md-offset-2">
+                      <i class="fa fa-google" aria-hidden="true"></i>
+                      <p class="cap">Google Drive</p>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">60% Complete</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mega col-md-2 col-md-offset-2">
+                      <i class="fa fa-cloud" aria-hidden="true"></i>
+                      <p class="cap">Mega Upload</p>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">60% Complete</span>
+                        </div>
+                      </div>
+                  </div>
+
+                </div><!-- connected accounts, tiles of cloud accounts, 3x4 grid including thumbnails and rounded progressbars -->
+                <div></div><!-- package type used on this account -->
+                <div></div><!-- invite friends -->
+                <div></div><!-- delete account  -->
+
+
         
         </div>
     </div>

@@ -9,8 +9,8 @@
 
     <div class="collapse navbar-collapse">
         
-        <button class="pers">Account</button>
-        <button class="norm">Storage</button> 
+        <button class="pers"><i class="fa fa-user"></i><span>Account</span></button>
+        <button class="norm"><i class="fa fa-hdd-o"></i><span>Storage</span></button> 
         
       <ul class="nav navbar-nav nor">
             <li><a href="upload.php"><i class="fa fa-cloud-upload"></i> <span>Upload</span></a></li>
@@ -24,8 +24,7 @@
       </ul>
         
         <ul class="nav navbar-nav per">
-            <li><a href="upload.php"><i class="fa fa-file-image-o"></i> <span>Profile Picture</span></a></li>
-            <li><a href="account.php"><i class="fa fa-user"></i> <span>Accout</span></a></li>
+            <li id="spec"><a href="profile.php"><i class="fa fa-user"></i> <span>Profile</span></a></li>
             <li><a href="security.php"><i class="fa fa-lock"></i> <span>Security</span></a></li>
             <li><a href="connect.php"><i class="fa fa-share-alt"></i> <span>Connect</span></a></li>
             <li><a href="upgrade.php"><i class="fa fa-cart-plus"></i> <span>Upgrade</span></a></li>

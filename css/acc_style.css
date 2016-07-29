@@ -246,3 +246,11 @@
     height: auto;
     }
 }
+.pers, .norm{
+    background-color: #7f752c;
+    padding: 5px;
+    border: 1px #7f752c solid;
+    border-radius: 5px;
+    width: 40%;
+    margin: 5px;
+}
