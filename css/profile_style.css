@@ -105,7 +105,7 @@
     text-align: center;
     width: 100%;
 }
-.stor h4{
+.stor h4, .pack h4, .inv h4, .del h4{
     border-bottom: black 1px solid;
     padding-bottom: 5px;
 }
@@ -121,4 +121,22 @@
     width: 100% !important;
     margin-bottom: 5px !important;
     padding-left: 0 !important;
+}
+.pack a{
+    margin-left: 10px;
+}
+.pack{
+    padding:25px;
+}
+.inv{
+    padding: 25px;
+}
+.del a{
+    color: red !important;
+}
+.del{
+    padding: 25px;
+}
+.text-danger{
+    color: red !important;
 }
