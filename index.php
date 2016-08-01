@@ -44,26 +44,29 @@
                             <h4 class="modal-title text-center" id="myModalLabel">Log in</h4>
                           </div>
                           <div class="modal-body">
-                            <form>
+                            <form method="get">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" class="form-control" name="name" placeholder="name">
+                                </div>
                               <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                <input type="email" class="form-control" name="email" placeholder="Email">
                               </div>
                               <div class="form-group">
                                 <label for="exampleInputPassword1">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <input type="password" class="form-control" name="password" placeholder="Password">
                               </div>
                               <div class="checkbox">
                                 <label>
                                   <input type="checkbox"> Remember me
                                 </label>
                               </div>
-                              <button type="submit" class="btn btn-default">Submit</button>
                             </form>
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#myModal2">Sign up</button>
-                            <button type="button" class="btn btn-primary">Log in</button>
+                            <button type="submit" class="btn btn-primary">Log in</button>
                           </div>
                         </div>
                       </div>
@@ -78,30 +81,29 @@
                             <h4 class="modal-title text-center" id="myModalLabel">Sign up</h4>
                           </div>
                           <div class="modal-body">
-                            <form>
+                            <form method="get">
                               <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                <input type="email" class="form-control" name="email" placeholder="Email">
                               </div>
                               <div class="form-group">
                                 <label for="exampleInputPassword1">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <input type="password" class="form-control" name="password" placeholder="Password">
                               </div>
                                 <div class="form-group">
                                 <label for="exampleInputPassword1">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <input type="password" class="form-control" name="password" placeholder="Password">
                               </div>
                               <div class="checkbox">
                                 <label>
                                   <input type="checkbox"> Remember me
                                 </label>
                               </div>
-                              <button type="submit" class="btn btn-default">Submit</button>
                             </form>
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#myModal">Log in</button>
-                            <button type="button" class="btn btn-primary">Sign up</button>
+                            <button type="submit" class="btn btn-primary">Sign up</button>
                           </div>
                         </div>
                       </div>
@@ -184,7 +186,7 @@
                 </div>
             
              <div id="bg">
-                <video id="img" width="100%" autoplay loop id="pricebg">
+                <video id="img pricebg" width="100%" autoplay loop>
                     <source src="boat.mp4" type="video/mp4">
                     Your browser does not support HTML5 video.
                 </video>

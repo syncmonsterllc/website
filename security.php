@@ -55,6 +55,9 @@
                 <div class="forgot">
                     <h4>Change password</h4>
                     <form>
+                        <div>
+                            <p>Your current e-mail is <?php echo $_GET["email"]; ?>. Is it still active ?</p>
+                        </div>
                         <div class="form-group">
                             <label>Email address</label>
                             <input type="email" class="form-control" placeholder="Email">

@@ -19,7 +19,7 @@
             <li><a href="recent.php"><i class="fa fa-clock-o"></i> <span>Recent</span></a></li>
             <li><a href="important.php"><i class="fa fa-star"></i> <span>Important</span></a></li>
             <li><a href="profile.php"><i class="fa fa-user"></i> <span>My Account</span></a></li>
-            <li><a href="profile.php"><i class="fa fa-cogs"></i> <span>Settings</span></a></li>
+            <li><a href="settings.php"><i class="fa fa-cogs"></i> <span>Settings</span></a></li>
             <li><a href="upgrade.php"><i class="fa fa-cart-plus"></i> <span>Upgrade</span></a></li>
       </ul>
         

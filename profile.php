@@ -20,7 +20,7 @@
     <div id="wrapper">
         <div class="well well-lg">
                 <div class="stor">
-                  <h4>Cloud storages</h3>
+                  <h4>Cloud storages</h4>
                     <div class="dropbox col-md-2 col-md-offset-1">
                       <i class="fa fa-dropbox" aria-hidden="true"></i>
                       <p class="cap">Dropbox</p>
@@ -54,7 +54,7 @@
                 </div><!-- connected accounts, tiles of cloud accounts, 3x4 grid including thumbnails and rounded progressbars -->
                 <div class="col-md-12 pack">
                   <h4>Package type used</h4>
-                  <p>$Account Username here$</p>
+                    <p>This account is assassinated with <?php echo $_GET["name"]; ?><!--$Account Username here$--></p>
                   <p>This account is using the basic package. 2GB used of 50GB<a class="btn btn-default" href="upgrade.php">Upgrade</a></p>
                 </div><!-- package type used on this account -->
 
