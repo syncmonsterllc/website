@@ -210,9 +210,8 @@ footer .col-md-3 ul{
 .pricecar{
     z-index: -1;
     background-color: transparent;
-    
 }
-@media (max-width: 768px)
+@media (max-width: 768px){
 .navbar-inverse .navbar-nav>li {
     width: 33%;
     display: block;
@@ -235,9 +234,6 @@ footer .col-md-3 ul{
     }
 }
 
-
-
-
     .sad ul{
         padding: 0;
         list-style: none;
@@ -250,7 +246,7 @@ footer .col-md-3 ul{
         text-align: left;
        padding: 0;
     }
- .sad  ul li:hover{
+    .sad  ul li:hover{
         color: black
     }
    .sad  ul li a{
@@ -278,7 +274,15 @@ footer .col-md-3 ul{
         margin-left: 15%;
         text-align: center;
     }
-
-.dropdown li:hover, .dropdown li:focus, .dropdown li:active, .dropdown li:visited{
-    color:black;
-}
+    .dropdown li:hover{
+        color:black;
+    }
+    .dropdown li:focus{
+        color:black;
+    }
+    .dropdown li:active{
+        color:black;
+    }
+    .dropdown li:visited{
+        color:black;
+    }
