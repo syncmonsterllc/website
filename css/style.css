@@ -219,13 +219,14 @@ footer .col-md-3 ul{
     margin-right: auto;
     text-align: center;
 }
+}
 @media (max-width:992px){
-#price {
-    padding: 5px 10px;
-}
-#features .btn {
-    width: 50%;
-}
+    #price {
+        padding: 5px 10px;
+    }
+    #features .btn {
+        width: 50%;
+    }
     #contform{
         padding: 5px 10px;
     }
@@ -257,8 +258,7 @@ footer .col-md-3 ul{
     }
    .sad  ul li a:hover{
         color: #fff;
-
-    }
+   }
     .sad ul li ul.dropdown{
         min-width: 125px; /* Set width of the dropdown */
         display: none;
@@ -286,3 +286,15 @@ footer .col-md-3 ul{
     .dropdown li:visited{
         color:black;
     }
+    #particles{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: black;
+    }
+    html, body{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+

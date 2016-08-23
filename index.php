@@ -5,16 +5,16 @@
     
     
 
-    <!-- Header Carousel -->
+    <!-- Header Carousel =
 
         <header id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
+  // Indicators
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
   </ol>
 
-  <!-- Wrapper for slides -->
+  // Wrapper for slides
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="http://placehold.it/1920x1080" alt="...">
@@ -25,15 +25,19 @@
     <div class="item">
       <img src="http://placehold.it/1920x1080" alt="...">
       <div class="carousel-caption">
-        <!--Put more stuff in here-->
       </div>
     </div>
     
   </div>
-
-
-
     </header>
+    -->
+
+    <div id="particles">
+
+
+    </div>
+
+
     
     <!-- Modal Log in -->
                     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
